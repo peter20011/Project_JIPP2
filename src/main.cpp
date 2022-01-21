@@ -12,4 +12,5 @@ int main()
     Test p1;
     p1.setimie("Jan");
     p1.wypisz();
+    p1.wypisz();
 }
