@@ -12,16 +12,6 @@ iostream
 string
 -
 
-C:/Users/PW/Desktop/Project_JIPP2/include/Test.h
-iostream
--
-string
--
-
-C:/Users/PW/Desktop/Project_JIPP2/src/Test.cpp
-../include/Test.h
-C:/Users/PW/Desktop/Project_JIPP2/include/Test.h
-
 C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
 Test.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Test.h
