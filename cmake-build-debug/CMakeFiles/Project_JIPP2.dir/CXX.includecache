@@ -31,11 +31,7 @@ Help_place.h
 C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
 iostream
 -
-stdlib.h
--
-string.h
--
-math.h
+cstdlib
 -
 Account.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Account.h

@@ -4,9 +4,7 @@
 
 
 #include <iostream>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#include <cstdlib>
 #include "Account.h"
 #include "Savings.h"
 #include "Current.h"
@@ -14,7 +12,7 @@ using namespace  std;
 
 int main()
 {
-    Account *a;
+
     int ch;
     cout<<"----MENU----\n1.Current Acc\n2.Savings Acc\n3.Exit\n";
     cout<<"Select account type: ";
@@ -24,8 +22,8 @@ int main()
         case 1: //Savings Accout
         {
             int ch;
-            Current c;
-            a=&c;
+            Account *a= new Current;
+
             a->getdata();
             while(1)
             {
@@ -61,8 +59,7 @@ int main()
         case 2: //Savings Accout
         {
             int ch;
-            Savings s;
-            a=&s;
+            Account *a= new Savings;
             a->getdata();
             while(1)
             {
