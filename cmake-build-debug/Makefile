@@ -118,29 +118,101 @@ Project_JIPP2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\build
 .PHONY : Project_JIPP2\fast
 
-src\Test.obj: src\Test.cpp.obj
-.PHONY : src\Test.obj
+src\Account.obj: src\Account.cpp.obj
+.PHONY : src\Account.obj
 
 # target to build an object file
-src\Test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Test.cpp.obj
-.PHONY : src\Test.cpp.obj
+src\Account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.obj
+.PHONY : src\Account.cpp.obj
 
-src\Test.i: src\Test.cpp.i
-.PHONY : src\Test.i
+src\Account.i: src\Account.cpp.i
+.PHONY : src\Account.i
 
 # target to preprocess a source file
-src\Test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Test.cpp.i
-.PHONY : src\Test.cpp.i
+src\Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.i
+.PHONY : src\Account.cpp.i
 
-src\Test.s: src\Test.cpp.s
-.PHONY : src\Test.s
+src\Account.s: src\Account.cpp.s
+.PHONY : src\Account.s
 
 # target to generate assembly for a file
-src\Test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Test.cpp.s
-.PHONY : src\Test.cpp.s
+src\Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.s
+.PHONY : src\Account.cpp.s
+
+src\Current.obj: src\Current.cpp.obj
+.PHONY : src\Current.obj
+
+# target to build an object file
+src\Current.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj
+.PHONY : src\Current.cpp.obj
+
+src\Current.i: src\Current.cpp.i
+.PHONY : src\Current.i
+
+# target to preprocess a source file
+src\Current.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Current.cpp.i
+.PHONY : src\Current.cpp.i
+
+src\Current.s: src\Current.cpp.s
+.PHONY : src\Current.s
+
+# target to generate assembly for a file
+src\Current.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Current.cpp.s
+.PHONY : src\Current.cpp.s
+
+src\Help_place.obj: src\Help_place.cpp.obj
+.PHONY : src\Help_place.obj
+
+# target to build an object file
+src\Help_place.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj
+.PHONY : src\Help_place.cpp.obj
+
+src\Help_place.i: src\Help_place.cpp.i
+.PHONY : src\Help_place.i
+
+# target to preprocess a source file
+src\Help_place.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.i
+.PHONY : src\Help_place.cpp.i
+
+src\Help_place.s: src\Help_place.cpp.s
+.PHONY : src\Help_place.s
+
+# target to generate assembly for a file
+src\Help_place.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.s
+.PHONY : src\Help_place.cpp.s
+
+src\Savings.obj: src\Savings.cpp.obj
+.PHONY : src\Savings.obj
+
+# target to build an object file
+src\Savings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj
+.PHONY : src\Savings.cpp.obj
+
+src\Savings.i: src\Savings.cpp.i
+.PHONY : src\Savings.i
+
+# target to preprocess a source file
+src\Savings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.i
+.PHONY : src\Savings.cpp.i
+
+src\Savings.s: src\Savings.cpp.s
+.PHONY : src\Savings.s
+
+# target to generate assembly for a file
+src\Savings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.s
+.PHONY : src\Savings.cpp.s
 
 src\main.obj: src\main.cpp.obj
 .PHONY : src\main.obj
@@ -175,9 +247,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project_JIPP2
-	@echo ... src/Test.obj
-	@echo ... src/Test.i
-	@echo ... src/Test.s
+	@echo ... src/Account.obj
+	@echo ... src/Account.i
+	@echo ... src/Account.s
+	@echo ... src/Current.obj
+	@echo ... src/Current.i
+	@echo ... src/Current.s
+	@echo ... src/Help_place.obj
+	@echo ... src/Help_place.i
+	@echo ... src/Help_place.s
+	@echo ... src/Savings.obj
+	@echo ... src/Savings.i
+	@echo ... src/Savings.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

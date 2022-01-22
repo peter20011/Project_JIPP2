@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project_JIPP2.dir/src/Test.cpp.obj"
+  "CMakeFiles/Project_JIPP2.dir/src/Account.cpp.obj"
+  "CMakeFiles/Project_JIPP2.dir/src/Current.cpp.obj"
+  "CMakeFiles/Project_JIPP2.dir/src/Help_place.cpp.obj"
+  "CMakeFiles/Project_JIPP2.dir/src/Savings.cpp.obj"
   "CMakeFiles/Project_JIPP2.dir/src/main.cpp.obj"
   "Project_JIPP2.exe"
   "Project_JIPP2.exe.manifest"
