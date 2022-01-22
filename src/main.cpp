@@ -10,7 +10,7 @@
 #include "Current.h"
 using namespace  std;
 
-int main()
+int main(int rgc, char* argv [])
 {
 
     int ch;
