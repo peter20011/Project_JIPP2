@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
-../include/Test.h
+../include/Account.h
 iostream
+-
+iomanip
 -
 string
 -
 
+../include/Current.h
+Account.h
+../include/Account.h
+Help_place.h
+../include/Help_place.h
+
+../include/Help_place.h
+
+../include/Savings.h
+Account.h
+../include/Account.h
+Help_place.h
+../include/Help_place.h
+
 C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
-Test.h
-C:/Users/PW/Desktop/Project_JIPP2/src/Test.h
 iostream
 -
+stdlib.h
+-
+string.h
+-
+math.h
+-
+Account.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Account.h
+Savings.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Savings.h
+Current.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Current.h
 

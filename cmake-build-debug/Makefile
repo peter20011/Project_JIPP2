@@ -118,30 +118,6 @@ Project_JIPP2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\build
 .PHONY : Project_JIPP2\fast
 
-src\Account.obj: src\Account.cpp.obj
-.PHONY : src\Account.obj
-
-# target to build an object file
-src\Account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.obj
-.PHONY : src\Account.cpp.obj
-
-src\Account.i: src\Account.cpp.i
-.PHONY : src\Account.i
-
-# target to preprocess a source file
-src\Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.i
-.PHONY : src\Account.cpp.i
-
-src\Account.s: src\Account.cpp.s
-.PHONY : src\Account.s
-
-# target to generate assembly for a file
-src\Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.s
-.PHONY : src\Account.cpp.s
-
 src\Current.obj: src\Current.cpp.obj
 .PHONY : src\Current.obj
 
@@ -247,9 +223,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project_JIPP2
-	@echo ... src/Account.obj
-	@echo ... src/Account.i
-	@echo ... src/Account.s
 	@echo ... src/Current.obj
 	@echo ... src/Current.i
 	@echo ... src/Current.s

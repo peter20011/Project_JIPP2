@@ -98,9 +98,6 @@
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Savings.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Account.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Current.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>

@@ -50,10 +50,10 @@ int main()
                         a->balance();
                         break;
                     case 5:
-                        a->dispaly();
+                        a->display();
                         break;
                     case 6:
-                        goto back;
+                        continue;
                     default: cout<<"Invalid Input\n";
                 }
             }
@@ -90,7 +90,7 @@ int main()
                         a->display();
                         break;
                     case 6:
-                        goto back;
+                        continue;
                     default: cout<<"Invalid Input\n";
                 }
             }
