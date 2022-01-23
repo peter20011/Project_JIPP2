@@ -8,13 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/PW/Desktop/Project_JIPP2/src/Accounts.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Accounts.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/Bank.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Bank.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAccount.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/CurrentAccount.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/Customer.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Customer.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/Manager.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Manager.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/Person.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Person.cpp.obj"
-  "C:/Users/PW/Desktop/Project_JIPP2/src/SavingAccount.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/SavingAccount.cpp.obj"
+  "C:/Users/PW/Desktop/Project_JIPP2/CurrentAcc.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/CurrentAcc.cpp.obj"
+  "C:/Users/PW/Desktop/Project_JIPP2/Help.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/Help.cpp.obj"
+  "C:/Users/PW/Desktop/Project_JIPP2/SavingsAcc.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/SavingsAcc.cpp.obj"
+  "C:/Users/PW/Desktop/Project_JIPP2/src/Account.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Account.cpp.obj"
   "C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

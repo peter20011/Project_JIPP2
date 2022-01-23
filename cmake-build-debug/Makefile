@@ -118,173 +118,101 @@ Project_JIPP2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\build
 .PHONY : Project_JIPP2\fast
 
-src\Accounts.obj: src\Accounts.cpp.obj
-.PHONY : src\Accounts.obj
+CurrentAcc.obj: CurrentAcc.cpp.obj
+.PHONY : CurrentAcc.obj
 
 # target to build an object file
-src\Accounts.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj
-.PHONY : src\Accounts.cpp.obj
+CurrentAcc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.obj
+.PHONY : CurrentAcc.cpp.obj
 
-src\Accounts.i: src\Accounts.cpp.i
-.PHONY : src\Accounts.i
+CurrentAcc.i: CurrentAcc.cpp.i
+.PHONY : CurrentAcc.i
 
 # target to preprocess a source file
-src\Accounts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.i
-.PHONY : src\Accounts.cpp.i
+CurrentAcc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.i
+.PHONY : CurrentAcc.cpp.i
 
-src\Accounts.s: src\Accounts.cpp.s
-.PHONY : src\Accounts.s
+CurrentAcc.s: CurrentAcc.cpp.s
+.PHONY : CurrentAcc.s
 
 # target to generate assembly for a file
-src\Accounts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.s
-.PHONY : src\Accounts.cpp.s
+CurrentAcc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.s
+.PHONY : CurrentAcc.cpp.s
 
-src\Bank.obj: src\Bank.cpp.obj
-.PHONY : src\Bank.obj
+Help.obj: Help.cpp.obj
+.PHONY : Help.obj
 
 # target to build an object file
-src\Bank.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj
-.PHONY : src\Bank.cpp.obj
+Help.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.obj
+.PHONY : Help.cpp.obj
 
-src\Bank.i: src\Bank.cpp.i
-.PHONY : src\Bank.i
+Help.i: Help.cpp.i
+.PHONY : Help.i
 
 # target to preprocess a source file
-src\Bank.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.i
-.PHONY : src\Bank.cpp.i
+Help.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.i
+.PHONY : Help.cpp.i
 
-src\Bank.s: src\Bank.cpp.s
-.PHONY : src\Bank.s
+Help.s: Help.cpp.s
+.PHONY : Help.s
 
 # target to generate assembly for a file
-src\Bank.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.s
-.PHONY : src\Bank.cpp.s
+Help.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.s
+.PHONY : Help.cpp.s
 
-src\CurrentAccount.obj: src\CurrentAccount.cpp.obj
-.PHONY : src\CurrentAccount.obj
+SavingsAcc.obj: SavingsAcc.cpp.obj
+.PHONY : SavingsAcc.obj
 
 # target to build an object file
-src\CurrentAccount.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj
-.PHONY : src\CurrentAccount.cpp.obj
+SavingsAcc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.obj
+.PHONY : SavingsAcc.cpp.obj
 
-src\CurrentAccount.i: src\CurrentAccount.cpp.i
-.PHONY : src\CurrentAccount.i
+SavingsAcc.i: SavingsAcc.cpp.i
+.PHONY : SavingsAcc.i
 
 # target to preprocess a source file
-src\CurrentAccount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.i
-.PHONY : src\CurrentAccount.cpp.i
+SavingsAcc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.i
+.PHONY : SavingsAcc.cpp.i
 
-src\CurrentAccount.s: src\CurrentAccount.cpp.s
-.PHONY : src\CurrentAccount.s
+SavingsAcc.s: SavingsAcc.cpp.s
+.PHONY : SavingsAcc.s
 
 # target to generate assembly for a file
-src\CurrentAccount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.s
-.PHONY : src\CurrentAccount.cpp.s
+SavingsAcc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.s
+.PHONY : SavingsAcc.cpp.s
 
-src\Customer.obj: src\Customer.cpp.obj
-.PHONY : src\Customer.obj
+src\Account.obj: src\Account.cpp.obj
+.PHONY : src\Account.obj
 
 # target to build an object file
-src\Customer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj
-.PHONY : src\Customer.cpp.obj
+src\Account.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.obj
+.PHONY : src\Account.cpp.obj
 
-src\Customer.i: src\Customer.cpp.i
-.PHONY : src\Customer.i
-
-# target to preprocess a source file
-src\Customer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.i
-.PHONY : src\Customer.cpp.i
-
-src\Customer.s: src\Customer.cpp.s
-.PHONY : src\Customer.s
-
-# target to generate assembly for a file
-src\Customer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.s
-.PHONY : src\Customer.cpp.s
-
-src\Manager.obj: src\Manager.cpp.obj
-.PHONY : src\Manager.obj
-
-# target to build an object file
-src\Manager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj
-.PHONY : src\Manager.cpp.obj
-
-src\Manager.i: src\Manager.cpp.i
-.PHONY : src\Manager.i
+src\Account.i: src\Account.cpp.i
+.PHONY : src\Account.i
 
 # target to preprocess a source file
-src\Manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.i
-.PHONY : src\Manager.cpp.i
+src\Account.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.i
+.PHONY : src\Account.cpp.i
 
-src\Manager.s: src\Manager.cpp.s
-.PHONY : src\Manager.s
-
-# target to generate assembly for a file
-src\Manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.s
-.PHONY : src\Manager.cpp.s
-
-src\Person.obj: src\Person.cpp.obj
-.PHONY : src\Person.obj
-
-# target to build an object file
-src\Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj
-.PHONY : src\Person.cpp.obj
-
-src\Person.i: src\Person.cpp.i
-.PHONY : src\Person.i
-
-# target to preprocess a source file
-src\Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Person.cpp.i
-.PHONY : src\Person.cpp.i
-
-src\Person.s: src\Person.cpp.s
-.PHONY : src\Person.s
+src\Account.s: src\Account.cpp.s
+.PHONY : src\Account.s
 
 # target to generate assembly for a file
-src\Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Person.cpp.s
-.PHONY : src\Person.cpp.s
-
-src\SavingAccount.obj: src\SavingAccount.cpp.obj
-.PHONY : src\SavingAccount.obj
-
-# target to build an object file
-src\SavingAccount.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj
-.PHONY : src\SavingAccount.cpp.obj
-
-src\SavingAccount.i: src\SavingAccount.cpp.i
-.PHONY : src\SavingAccount.i
-
-# target to preprocess a source file
-src\SavingAccount.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.i
-.PHONY : src\SavingAccount.cpp.i
-
-src\SavingAccount.s: src\SavingAccount.cpp.s
-.PHONY : src\SavingAccount.s
-
-# target to generate assembly for a file
-src\SavingAccount.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.s
-.PHONY : src\SavingAccount.cpp.s
+src\Account.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.s
+.PHONY : src\Account.cpp.s
 
 src\main.obj: src\main.cpp.obj
 .PHONY : src\main.obj
@@ -319,27 +247,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project_JIPP2
-	@echo ... src/Accounts.obj
-	@echo ... src/Accounts.i
-	@echo ... src/Accounts.s
-	@echo ... src/Bank.obj
-	@echo ... src/Bank.i
-	@echo ... src/Bank.s
-	@echo ... src/CurrentAccount.obj
-	@echo ... src/CurrentAccount.i
-	@echo ... src/CurrentAccount.s
-	@echo ... src/Customer.obj
-	@echo ... src/Customer.i
-	@echo ... src/Customer.s
-	@echo ... src/Manager.obj
-	@echo ... src/Manager.i
-	@echo ... src/Manager.s
-	@echo ... src/Person.obj
-	@echo ... src/Person.i
-	@echo ... src/Person.s
-	@echo ... src/SavingAccount.obj
-	@echo ... src/SavingAccount.i
-	@echo ... src/SavingAccount.s
+	@echo ... CurrentAcc.obj
+	@echo ... CurrentAcc.i
+	@echo ... CurrentAcc.s
+	@echo ... Help.obj
+	@echo ... Help.i
+	@echo ... Help.s
+	@echo ... SavingsAcc.obj
+	@echo ... SavingsAcc.i
+	@echo ... SavingsAcc.s
+	@echo ... src/Account.obj
+	@echo ... src/Account.i
+	@echo ... src/Account.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -86,46 +86,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Accounts.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/CurrentAcc.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Bank.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/Help.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/CurrentAccount.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/SavingsAcc.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Customer.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Account.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Manager.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/CurrentAcc.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Person.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Help.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/SavingAccount.h">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/SavingsAcc.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Accounts.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Bank.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAccount.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Customer.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Manager.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Person.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/SavingAccount.cpp">
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Account.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp">
