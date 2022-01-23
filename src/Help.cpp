@@ -3,6 +3,7 @@
 //
 
 #include "Help.h"
+#include <limits>
 
 void menu(){
     cout << "\t\t=====Simple Bank Management System=====";
@@ -16,8 +17,31 @@ void menu(){
     cout << "\n\t\tPress 8 to Exit the Program";
     cout << "\n\t\tOption: ";
 }
-int check() {
-    unsigned int liczba;
+long check() {
+    long liczba;
+    while(true)
+    {
+        cin >> liczba;
+        if(cin.fail())
+        {
+            cout << "Error" << endl;
+            cout<<"Try again"<<endl;
+            cin.clear();
+            cin.ignore(LONG_MAX,'\n');
+
+        }
+        else{
+            break;
+        }
+    }
+
+
+    return liczba;
+
+}
+
+int checks() {
+    long liczba;
     while(true)
     {
         cin >> liczba;
@@ -38,3 +62,4 @@ int check() {
     return liczba;
 
 }
+

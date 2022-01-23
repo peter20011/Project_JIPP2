@@ -26,7 +26,7 @@ public:
     void delete_account(int,char* file );
     void display_all(char* file );
     void deposit_withdraw(int, int,char* file );
-    friend  int check();
+    friend long check();
 };
 
 
