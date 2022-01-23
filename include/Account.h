@@ -5,6 +5,7 @@
 #ifndef PROJECT_JIPP2_ACCOUNT_H
 #define PROJECT_JIPP2_ACCOUNT_H
 #include <iostream>
+#include <string>
 using namespace std;
 class Account {
 protected:
@@ -23,7 +24,7 @@ public:
     virtual void   get_report()=0;
     virtual int   get_accountnumber()=0;
     virtual int   get_funds()=0;
-    virtual char   get_accounttype()=0;
+    virtual char  get_accounttype()=0;
     virtual void  write_account(char* file )=0;
     virtual void   display_sp(int n, char* file)=0;
     virtual void  modify_account(int,char* file)=0;

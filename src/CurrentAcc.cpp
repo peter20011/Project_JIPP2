@@ -9,6 +9,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include "Help.h"
+#include <string>
+#include <sstream>
 using namespace std;
 CurrentAcc::CurrentAcc()
 {
@@ -26,12 +28,43 @@ void CurrentAcc::create_account()
     cout << "\nEnter The Name of The account Holder : ";
     cin.ignore();
     cin.getline(name, 50);
-    cout << "\nEnter account type (enter s - saving or c - credit): ";
+while(true){
+    cout << "\nEnter account type (enter s is equal SAVING or c is equal CREDIT): ";
     cin >> type;
     type = toupper(type);
-    cout << "\nEnter The Initial amount(500 or more for Saving and 1000 or more for current ): ";
-    deposit=check();
-    cout << "\n\n\nAccount Created Successfully...";
+
+    string s(1,type);
+    if(s=="S")
+    {
+        cout << "\nEnter The Initial amount(500 or more for Saving and 1000 or more for current ): ";
+        deposit=check();
+        while(deposit<0)
+        {
+            cout<<"Negative amount";
+            deposit=check();
+        }
+        cout << "\n\n\nAccount Created Successfully...";
+        break;
+    }
+    else if(s=="C")
+    {
+        cout << "\nEnter The Initial amount(500 or more for Saving and 1000 or more for current ): ";
+        deposit=check();
+        while(deposit<0)
+        {
+            deposit=check();
+        }
+        cout << "\n\n\nAccount Created Successfully...";
+        break;
+    }
+    else
+    {
+        cout<<"Error\n";
+        cout<<"Try again\n";
+        continue;
+    }
+
+}
 }
 
 void CurrentAcc::show_account()
@@ -49,8 +82,40 @@ void CurrentAcc::modify_account()
     cin.ignore();
     cin.getline(name, 50);
     cout << "\nModify Type of Account: ";
+    while(1){
     cin >> type;
     type = toupper(type);
+
+    string s(1,type);
+    if(s=="S")
+    {
+        cout << "\nEnter The Initial amount(500 or more for Saving and 1000 or more for current ): ";
+        deposit=check();
+        while(deposit<0)
+        {
+            deposit=check();
+        }
+        cout << "\n\n\nAccount Created Successfully...";
+        break;
+    }
+    else if(s=="C")
+    {
+        cout << "\nEnter The Initial amount(500 or more for Saving and 1000 or more for current ): ";
+        deposit=check();
+        while(deposit<0)
+        {
+            deposit=check();
+        }
+        cout << "\n\n\nAccount Created Successfully...";
+        break;
+    }
+    else
+    {
+        cout<<"Error\n";
+        cout<<"Try again\n";
+        continue;
+    }
+}
 }
 
 void CurrentAcc::deposit_funds(int x )
@@ -88,7 +153,7 @@ void CurrentAcc::write_account(char* file)
 {
      CurrentAcc ac;
     ofstream outFile;
-    outFile.open("account.dat", ios::binary | ios::app);
+    outFile.open(file, ios::binary | ios::app);
     ac.create_account();
     outFile.write(reinterpret_cast<char *>(&ac), sizeof(Account));
     outFile.close();
@@ -99,7 +164,7 @@ void CurrentAcc::display_sp(int n,char* file)
     CurrentAcc ac;
     bool flag = false;
     ifstream inFile;
-    inFile.open( file, ios::binary);
+    inFile.open( file, ios::binary|ios::in);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";
@@ -156,7 +221,7 @@ void CurrentAcc::delete_account(int n,char* file)
     CurrentAcc ac;
     ifstream inFile;
     ofstream outFile;
-    inFile.open(file, ios::binary);
+    inFile.open(file, ios::binary|ios::app);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";
@@ -241,6 +306,10 @@ void CurrentAcc::deposit_withdraw(int n , int option,char* file)
                 cout << "\n\n\tTO WITHDRAW AMOUNT ";
                 cout << "\n\nEnter The amount to be withdraw: ";
                 amt=check();
+                while(amt<0)
+                {
+                    amt=check();
+                }
                 int bal = ac.get_funds() - amt;
                 if ((bal < 500 && ac.get_accounttype() == 'S') || (bal < 1000 && ac.get_accounttype() == 'C'))
                     cout << "Insufficience balance";

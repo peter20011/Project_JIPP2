@@ -9,6 +9,12 @@
 ../include/Account.h
 iostream
 -
+string
+-
+
+../include/CurrentAcc.h
+Account.h
+-
 
 ../include/Help.h
 iostream
@@ -21,6 +27,26 @@ string
 -
 Help.h
 ../include/Help.h
+
+C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.cpp
+CurrentAcc.h
+C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.h
+fstream
+-
+cctype
+-
+iomanip
+-
+time.h
+-
+stdlib.h
+-
+Help.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+string
+-
+sstream
+-
 
 C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp
 SavingsAcc.h

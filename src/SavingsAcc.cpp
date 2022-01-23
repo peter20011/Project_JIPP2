@@ -158,7 +158,7 @@ void SavingsAcc::delete_account(int n,char* file )
     SavingsAcc ac;
     ifstream inFile;
     ofstream outFile;
-    inFile.open(file, ios::binary);
+    inFile.open(file, ios::binary|ios::app);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";

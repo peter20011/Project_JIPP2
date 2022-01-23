@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
         menu();
         cin >> opt;
         system("cls");
-        Account *a=new SavingsAcc();
+        Account *a=new CurrentAcc();
         switch (opt)
         {
             case '1':
@@ -47,8 +47,7 @@ int main(int argc, char* argv[])
                 break;
             case '4':
                 cout << "\n\n\tEnter The account No. : ";
-                cin>>num;//=check();
-                cout<<*file_name;
+                num=check();
                 a->display_sp(num,*file_name);
                 break;
             case '5':
