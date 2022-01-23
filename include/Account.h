@@ -24,12 +24,12 @@ public:
     virtual int   get_accountnumber()=0;
     virtual int   get_funds()=0;
     virtual char   get_accounttype()=0;
-    virtual void  write_account()=0;
-    virtual void   display_sp(int)=0;
-    virtual void  modify_account(int)=0;
-    virtual void   delete_account(int)=0;
-    virtual void   display_all()=0;
-    virtual void   deposit_withdraw(int, int)=0;
+    virtual void  write_account(char* file )=0;
+    virtual void   display_sp(int, char* file)=0;
+    virtual void  modify_account(int,char* file)=0;
+    virtual void   delete_account(int,char* file)=0;
+    virtual void   display_all(char* file)=0;
+    virtual void   deposit_withdraw(int, int,char* file)=0;
 };
 
 

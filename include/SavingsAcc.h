@@ -20,12 +20,12 @@ public:
     int get_accountnumber();
     int get_funds();
     char get_accounttype();
-    void write_account();
-    void display_sp(int);
-    void modify_account(int);
-    void delete_account(int);
-    void display_all();
-    void deposit_withdraw(int, int);
+    void write_account(char* file );
+    void display_sp(int,char* file );
+    void modify_account(int,char* file );
+    void delete_account(int,char* file );
+    void display_all(char* file );
+    void deposit_withdraw(int, int,char* file );
     friend  int check();
 };
 

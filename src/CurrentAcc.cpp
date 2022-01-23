@@ -84,7 +84,7 @@ char CurrentAcc::get_accounttype()
     return type;
 }
 
-void CurrentAcc::write_account()
+void CurrentAcc::write_account(char* file)
 {
      CurrentAcc ac;
     ofstream outFile;
@@ -94,12 +94,12 @@ void CurrentAcc::write_account()
     outFile.close();
 }
 
-void CurrentAcc::display_sp(int n)
+void CurrentAcc::display_sp(int n,char* file)
 {
     CurrentAcc ac;
     bool flag = false;
     ifstream inFile;
-    inFile.open("account.dat", ios::binary);
+    inFile.open( file, ios::binary);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";
@@ -120,12 +120,12 @@ void CurrentAcc::display_sp(int n)
         cout << "\n\nAccount number does not exist";
 }
 
-void CurrentAcc::modify_account(int n)
+void CurrentAcc::modify_account(int n,char* file)
 {
     bool found = false;
     CurrentAcc ac;
     fstream File;
-    File.open("account.dat", ios::binary | ios::in | ios::out);
+    File.open(file, ios::binary | ios::in | ios::out);
     if (!File)
     {
         cout << "File could not be open !! Press any Key...";
@@ -151,12 +151,12 @@ void CurrentAcc::modify_account(int n)
         cout << "\n\n Record Not Found ";
 }
 
-void CurrentAcc::delete_account(int n)
+void CurrentAcc::delete_account(int n,char* file)
 {
     CurrentAcc ac;
     ifstream inFile;
     ofstream outFile;
-    inFile.open("account.dat", ios::binary);
+    inFile.open(file, ios::binary);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";
@@ -174,12 +174,12 @@ void CurrentAcc::delete_account(int n)
 
     inFile.close();
     outFile.close();
-    remove("account.dat");
-    rename("Temp.dat", "account.dat");
+    remove(file);
+    rename("Temp.dat", file);
     cout << "\n\n\tRecord Deleted...";
 }
 
-void CurrentAcc::display_all()
+void CurrentAcc::display_all(char* file)
 {
     int bankPassword = 12345, enteredPassword;
     cout << "Enter the BANK PASSWORD: \n";
@@ -188,7 +188,7 @@ void CurrentAcc::display_all()
     {
         CurrentAcc ac;
         ifstream inFile;
-        inFile.open("account.dat", ios::binary);
+        inFile.open(file, ios::binary);
         if (!inFile)
         {
             cout << "File could not be open !! Press any Key...";
@@ -211,13 +211,13 @@ void CurrentAcc::display_all()
     }
 }
 
-void CurrentAcc::deposit_withdraw(int n , int option)
+void CurrentAcc::deposit_withdraw(int n , int option,char* file)
 {
     int amt;
     bool found = false;
     CurrentAcc ac;
     fstream File;
-    File.open("account.dat", ios::binary | ios::in | ios::out);
+    File.open(file , ios::binary | ios::in | ios::out);
     if (!File)
     {
         cout << "File could not be open !! Press any Key...";
