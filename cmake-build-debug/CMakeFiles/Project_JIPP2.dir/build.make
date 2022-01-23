@@ -74,80 +74,164 @@ CMakeFiles\Project_JIPP2.dir\src\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\main.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\main.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
-CMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj: ..\src\Current.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Current.cpp.obj"
+CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj: ..\src\Accounts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Accounts.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Current.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Accounts.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Current.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Current.cpp.i"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Current.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Current.cpp
+CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Accounts.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Accounts.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Current.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Current.cpp.s"
+CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Accounts.cpp.s"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Current.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Current.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Accounts.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
-CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj: ..\src\Help_place.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Help_place.cpp.obj"
+CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj: ..\src\CurrentAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/CurrentAccount.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Help_place.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\CurrentAccount.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Help_place.cpp.i"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Help_place.cpp
+CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/CurrentAccount.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\CurrentAccount.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Help_place.cpp.s"
+CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/CurrentAccount.cpp.s"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Help_place.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\CurrentAccount.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
-CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj: ..\src\Savings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Savings.cpp.obj"
+CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj: ..\src\Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Customer.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Savings.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Customer.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Savings.cpp.i"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Savings.cpp
+CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Customer.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Customer.cpp
 <<
 
-CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Savings.cpp.s"
+CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Customer.cpp.s"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Savings.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Savings.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Customer.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Customer.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj: ..\src\Manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Manager.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Manager.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Manager.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Manager.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Manager.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Manager.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Manager.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj: ..\src\Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Person.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Person.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Person.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Person.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Person.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Person.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Person.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Person.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj: ..\src\SavingAccount.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/SavingAccount.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\SavingAccount.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/SavingAccount.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\SavingAccount.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/SavingAccount.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\SavingAccount.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj: ..\src\Bank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Bank.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Bank.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Bank.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Bank.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Bank.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Bank.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Bank.cpp
 <<
 
 # Object files for target Project_JIPP2
 Project_JIPP2_OBJECTS = \
 "CMakeFiles\Project_JIPP2.dir\src\main.cpp.obj" \
-"CMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj" \
-"CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj" \
-"CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj"
+"CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj"
 
 # External object files for target Project_JIPP2
 Project_JIPP2_EXTERNAL_OBJECTS =
 
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\main.cpp.obj
-Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Current.cpp.obj
-Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Help_place.cpp.obj
-Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Savings.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Accounts.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\CurrentAccount.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Customer.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Manager.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Person.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\SavingAccount.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Bank.cpp.obj
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\build.make
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Project_JIPP2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Project_JIPP2.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Project_JIPP2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Project_JIPP2.dir\objects1.rsp @<<
  /out:Project_JIPP2.exe /implib:Project_JIPP2.lib /pdb:C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\Project_JIPP2.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
