@@ -7,18 +7,23 @@
 #include "SavingsAcc.h"
 #include "Help.h"
 #include <string>
+#include <cstdio>
 
 
 int main(int argc, char* argv[])
 {
+    if (argc >2 || argc ==1)
+    {
+        perror("Nie podano nazwy pliku lub za duza ilosc argumentow");
+        exit(-1);
+    }
     char* file_name[1];
     *file_name=argv[1];
 
     srand(time(0));
     char opt;
     int num;
-    menu();
-    num=check();
+
    while(true)
    {
         menu();
@@ -42,7 +47,8 @@ int main(int argc, char* argv[])
                 break;
             case '4':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                cin>>num;//=check();
+                cout<<*file_name;
                 a->display_sp(num,*file_name);
                 break;
             case '5':

@@ -25,7 +25,7 @@ public:
     virtual int   get_funds()=0;
     virtual char   get_accounttype()=0;
     virtual void  write_account(char* file )=0;
-    virtual void   display_sp(int, char* file)=0;
+    virtual void   display_sp(int n, char* file)=0;
     virtual void  modify_account(int,char* file)=0;
     virtual void   delete_account(int,char* file)=0;
     virtual void   display_all(char* file)=0;

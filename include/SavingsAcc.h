@@ -21,7 +21,7 @@ public:
     int get_funds();
     char get_accounttype();
     void write_account(char* file );
-    void display_sp(int,char* file );
+    void display_sp(int n,char* file );
     void modify_account(int,char* file );
     void delete_account(int,char* file );
     void display_all(char* file );

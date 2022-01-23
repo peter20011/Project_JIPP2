@@ -13,12 +13,12 @@
 
 SavingsAcc::SavingsAcc()
 {
-    cout << "\nThe SavingsAcc class started\n";
+ //   cout << "\nThe SavingsAcc class started\n";
 }
 
 SavingsAcc::~SavingsAcc()
 {
-    cout << "\nSavingsAcc class Ended\n";
+   // cout << "\nSavingsAcc class Ended\n";
 }
 
 void SavingsAcc::create_account()
@@ -101,7 +101,7 @@ void SavingsAcc::display_sp(int n,char* file )
     SavingsAcc ac;
     bool flag = false;
     fstream inFile;;
-    inFile.open(file, ios::binary);
+    inFile.open(file, ios::binary|ios::in);
     if (!inFile)
     {
         cout << "File could not be open !! Press any Key...";
