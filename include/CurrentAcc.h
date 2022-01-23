@@ -25,7 +25,7 @@ public:
     void delete_account(int);
     void display_all();
     void deposit_withdraw(int, int);
-
+     friend  int check();
 
 };
 

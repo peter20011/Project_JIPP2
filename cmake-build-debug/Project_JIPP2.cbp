@@ -86,15 +86,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/CurrentAcc.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/Help.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
-		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/SavingsAcc.cpp">
-			<Option target="Project_JIPP2"/>
-		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Account.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
@@ -108,6 +99,15 @@
 			<Option target="Project_JIPP2"/>
 		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Account.cpp">
+			<Option target="Project_JIPP2"/>
+		</Unit>
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.cpp">
+			<Option target="Project_JIPP2"/>
+		</Unit>
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Help.cpp">
+			<Option target="Project_JIPP2"/>
+		</Unit>
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp">

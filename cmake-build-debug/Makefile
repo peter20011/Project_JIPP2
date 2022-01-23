@@ -118,78 +118,6 @@ Project_JIPP2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\build
 .PHONY : Project_JIPP2\fast
 
-CurrentAcc.obj: CurrentAcc.cpp.obj
-.PHONY : CurrentAcc.obj
-
-# target to build an object file
-CurrentAcc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.obj
-.PHONY : CurrentAcc.cpp.obj
-
-CurrentAcc.i: CurrentAcc.cpp.i
-.PHONY : CurrentAcc.i
-
-# target to preprocess a source file
-CurrentAcc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.i
-.PHONY : CurrentAcc.cpp.i
-
-CurrentAcc.s: CurrentAcc.cpp.s
-.PHONY : CurrentAcc.s
-
-# target to generate assembly for a file
-CurrentAcc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\CurrentAcc.cpp.s
-.PHONY : CurrentAcc.cpp.s
-
-Help.obj: Help.cpp.obj
-.PHONY : Help.obj
-
-# target to build an object file
-Help.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.obj
-.PHONY : Help.cpp.obj
-
-Help.i: Help.cpp.i
-.PHONY : Help.i
-
-# target to preprocess a source file
-Help.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.i
-.PHONY : Help.cpp.i
-
-Help.s: Help.cpp.s
-.PHONY : Help.s
-
-# target to generate assembly for a file
-Help.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\Help.cpp.s
-.PHONY : Help.cpp.s
-
-SavingsAcc.obj: SavingsAcc.cpp.obj
-.PHONY : SavingsAcc.obj
-
-# target to build an object file
-SavingsAcc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.obj
-.PHONY : SavingsAcc.cpp.obj
-
-SavingsAcc.i: SavingsAcc.cpp.i
-.PHONY : SavingsAcc.i
-
-# target to preprocess a source file
-SavingsAcc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.i
-.PHONY : SavingsAcc.cpp.i
-
-SavingsAcc.s: SavingsAcc.cpp.s
-.PHONY : SavingsAcc.s
-
-# target to generate assembly for a file
-SavingsAcc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\SavingsAcc.cpp.s
-.PHONY : SavingsAcc.cpp.s
-
 src\Account.obj: src\Account.cpp.obj
 .PHONY : src\Account.obj
 
@@ -213,6 +141,78 @@ src\Account.s: src\Account.cpp.s
 src\Account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Account.cpp.s
 .PHONY : src\Account.cpp.s
+
+src\CurrentAcc.obj: src\CurrentAcc.cpp.obj
+.PHONY : src\CurrentAcc.obj
+
+# target to build an object file
+src\CurrentAcc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAcc.cpp.obj
+.PHONY : src\CurrentAcc.cpp.obj
+
+src\CurrentAcc.i: src\CurrentAcc.cpp.i
+.PHONY : src\CurrentAcc.i
+
+# target to preprocess a source file
+src\CurrentAcc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAcc.cpp.i
+.PHONY : src\CurrentAcc.cpp.i
+
+src\CurrentAcc.s: src\CurrentAcc.cpp.s
+.PHONY : src\CurrentAcc.s
+
+# target to generate assembly for a file
+src\CurrentAcc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\CurrentAcc.cpp.s
+.PHONY : src\CurrentAcc.cpp.s
+
+src\Help.obj: src\Help.cpp.obj
+.PHONY : src\Help.obj
+
+# target to build an object file
+src\Help.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help.cpp.obj
+.PHONY : src\Help.cpp.obj
+
+src\Help.i: src\Help.cpp.i
+.PHONY : src\Help.i
+
+# target to preprocess a source file
+src\Help.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help.cpp.i
+.PHONY : src\Help.cpp.i
+
+src\Help.s: src\Help.cpp.s
+.PHONY : src\Help.s
+
+# target to generate assembly for a file
+src\Help.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Help.cpp.s
+.PHONY : src\Help.cpp.s
+
+src\SavingsAcc.obj: src\SavingsAcc.cpp.obj
+.PHONY : src\SavingsAcc.obj
+
+# target to build an object file
+src\SavingsAcc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.obj
+.PHONY : src\SavingsAcc.cpp.obj
+
+src\SavingsAcc.i: src\SavingsAcc.cpp.i
+.PHONY : src\SavingsAcc.i
+
+# target to preprocess a source file
+src\SavingsAcc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.i
+.PHONY : src\SavingsAcc.cpp.i
+
+src\SavingsAcc.s: src\SavingsAcc.cpp.s
+.PHONY : src\SavingsAcc.s
+
+# target to generate assembly for a file
+src\SavingsAcc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.s
+.PHONY : src\SavingsAcc.cpp.s
 
 src\main.obj: src\main.cpp.obj
 .PHONY : src\main.obj
@@ -247,18 +247,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project_JIPP2
-	@echo ... CurrentAcc.obj
-	@echo ... CurrentAcc.i
-	@echo ... CurrentAcc.s
-	@echo ... Help.obj
-	@echo ... Help.i
-	@echo ... Help.s
-	@echo ... SavingsAcc.obj
-	@echo ... SavingsAcc.i
-	@echo ... SavingsAcc.s
 	@echo ... src/Account.obj
 	@echo ... src/Account.i
 	@echo ... src/Account.s
+	@echo ... src/CurrentAcc.obj
+	@echo ... src/CurrentAcc.i
+	@echo ... src/CurrentAcc.s
+	@echo ... src/Help.obj
+	@echo ... src/Help.i
+	@echo ... src/Help.s
+	@echo ... src/SavingsAcc.obj
+	@echo ... src/SavingsAcc.i
+	@echo ... src/SavingsAcc.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

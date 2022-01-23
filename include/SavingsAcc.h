@@ -6,6 +6,7 @@
 #define PROJECT_JIPP2_SAVINGSACC_H
 #include <Account.h>
 #include <string>
+#include "Help.h"
 class SavingsAcc : public Account{
 public:
     SavingsAcc();
@@ -25,7 +26,7 @@ public:
     void delete_account(int);
     void display_all();
     void deposit_withdraw(int, int);
-
+    friend  int check();
 };
 
 

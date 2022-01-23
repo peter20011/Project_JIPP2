@@ -6,4 +6,5 @@ using namespace std;
 #ifndef PROJECT_JIPP2_HELP_H
 #define PROJECT_JIPP2_HELP_H
 void menu();
+int check();
 #endif //PROJECT_JIPP2_HELP_H

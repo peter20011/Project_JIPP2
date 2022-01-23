@@ -11,7 +11,6 @@
 #include <string>
 #include "Help.h"
 
-extern file_name;
 SavingsAcc::SavingsAcc()
 {
     cout << "\nThe SavingsAcc class started\n";

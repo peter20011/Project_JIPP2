@@ -23,10 +23,8 @@ Account.h
 -
 string
 -
-
-C:/Users/PW/Desktop/Project_JIPP2/Help.cpp
 Help.h
-C:/Users/PW/Desktop/Project_JIPP2/Help.h
+../include/Help.h
 
 C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
 Account.h
@@ -37,4 +35,6 @@ SavingsAcc.h
 C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.h
 Help.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+string
+-
 

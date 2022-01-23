@@ -10,11 +10,12 @@
 
 
 int main(int argc, char* argv[])
-{   char file_name[30];
-    file_name==argv[1];
+{  // char file_name[30];
+    //file_name==argv[1];
     srand(time(0));
     char opt;
     int num;
+    menu();
     num=check();
    while(true)
    {
