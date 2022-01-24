@@ -9,10 +9,13 @@
 #include <string>
 #include "Help.h"
 using namespace std;
+
 class Taxes {
+
 string name;
 double salary;
 public:
+
     vector<double>income;
     Taxes();
     ~Taxes();
