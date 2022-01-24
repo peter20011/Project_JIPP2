@@ -14,8 +14,8 @@ public:
     void create_account();
     void show_account();
     void modify_account();
-    void deposit_funds(int);
-    void draw_funds(int);
+    void deposit_funds(double);
+    void draw_funds(double);
     void get_report();
     int get_accountnumber();
     int get_funds();
@@ -26,7 +26,8 @@ public:
     void delete_account(int,char* file );
     void display_all(char* file );
     void deposit_withdraw(int, int,char* file );
-    friend long check();
+    friend double check();
+    friend int check_s();
 };
 
 

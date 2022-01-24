@@ -20,14 +20,6 @@ Account.h
 iostream
 ../include/iostream
 
-../include/SavingsAcc.h
-Account.h
--
-string
--
-Help.h
-../include/Help.h
-
 C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.cpp
 CurrentAcc.h
 C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.h
@@ -37,32 +29,10 @@ cctype
 -
 iomanip
 -
-time.h
--
 stdlib.h
 -
 Help.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
 string
 -
-sstream
--
-
-C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp
-SavingsAcc.h
-C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.h
-fstream
--
-cctype
--
-iomanip
--
-time.h
--
-stdlib.h
--
-string
--
-Help.h
-C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
 

@@ -6,11 +6,9 @@
 #include <fstream>
 #include <cctype>
 #include <iomanip>
-#include <time.h>
 #include <stdlib.h>
 #include "Help.h"
 #include <string>
-#include <sstream>
 using namespace std;
 CurrentAcc::CurrentAcc()
 {
@@ -118,12 +116,12 @@ void CurrentAcc::modify_account()
 }
 }
 
-void CurrentAcc::deposit_funds(int x )
+void CurrentAcc::deposit_funds(double x )
 {
     deposit += x;
 }
 
-void CurrentAcc::draw_funds(int x)
+void CurrentAcc::draw_funds(double x)
 {
     deposit -= x;
 }
@@ -248,7 +246,7 @@ void CurrentAcc::display_all(char* file)
 {
     int bankPassword = 12345, enteredPassword;
     cout << "Enter the BANK PASSWORD: \n";
-    cin >> enteredPassword;
+    enteredPassword=check_s();
     if (enteredPassword == bankPassword)
     {
         CurrentAcc ac;
@@ -278,7 +276,7 @@ void CurrentAcc::display_all(char* file)
 
 void CurrentAcc::deposit_withdraw(int n , int option,char* file)
 {
-    int amt;
+    double amt;
     bool found = false;
     CurrentAcc ac;
     fstream File;
@@ -298,7 +296,11 @@ void CurrentAcc::deposit_withdraw(int n , int option,char* file)
             {
                 cout << "\n\n\tTO DEPOSITE AMOUNT ";
                 cout << "\n\nEnter The amount to be deposited: ";
-                cin >> amt;
+                amt=check();
+                while(amt<0)
+                {
+                    amt=check();
+                }
                 ac.deposit_funds(amt);
             }
             if (option == 2)

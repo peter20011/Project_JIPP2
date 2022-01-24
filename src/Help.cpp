@@ -17,8 +17,8 @@ void menu(){
     cout << "\n\t\tPress 8 to Exit the Program";
     cout << "\n\t\tOption: ";
 }
-long check() {
-    long liczba;
+double check() {
+    double liczba;
     while(true)
     {
         cin >> liczba;
@@ -40,8 +40,8 @@ long check() {
 
 }
 
-int checks() {
-    long liczba;
+int check_s() {
+    int liczba;
     while(true)
     {
         cin >> liczba;
@@ -56,10 +56,10 @@ int checks() {
         else{
             break;
         }
+
     }
 
 
     return liczba;
-
 }
 

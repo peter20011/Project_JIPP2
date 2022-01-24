@@ -24,12 +24,13 @@ int main(int argc, char* argv[])
     char opt;
     int num;
 
+    Account *a=new CurrentAcc();
+    //Account *a=new SavingsAcc();
    while(true)
    {
         menu();
         cin >> opt;
         system("cls");
-        Account *a=new CurrentAcc();
         switch (opt)
         {
             case '1':
@@ -37,17 +38,17 @@ int main(int argc, char* argv[])
                 break;
             case '2':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                num=check_s();
                 a->deposit_withdraw(num, 1,*file_name);
                 break;
             case '3':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                num=check_s();
                 a->deposit_withdraw(num, 2,*file_name);
                 break;
             case '4':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                num=check_s();
                 a->display_sp(num,*file_name);
                 break;
             case '5':
