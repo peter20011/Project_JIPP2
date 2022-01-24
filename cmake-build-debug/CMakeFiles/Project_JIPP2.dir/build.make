@@ -150,13 +150,33 @@ CMakeFiles\Project_JIPP2.dir\src\Help.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Help.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Help.cpp
 <<
 
+CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj: CMakeFiles\Project_JIPP2.dir\flags.make
+CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj: ..\src\Taxes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_JIPP2.dir/src/Taxes.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj /FdCMakeFiles\Project_JIPP2.dir\ /FS -c C:\Users\PW\Desktop\Project_JIPP2\src\Taxes.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_JIPP2.dir/src/Taxes.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\PW\Desktop\Project_JIPP2\src\Taxes.cpp
+<<
+
+CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_JIPP2.dir/src/Taxes.cpp.s"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.s /c C:\Users\PW\Desktop\Project_JIPP2\src\Taxes.cpp
+<<
+
 # Object files for target Project_JIPP2
 Project_JIPP2_OBJECTS = \
 "CMakeFiles\Project_JIPP2.dir\src\Account.cpp.obj" \
 "CMakeFiles\Project_JIPP2.dir\src\CurrentAcc.cpp.obj" \
 "CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.obj" \
 "CMakeFiles\Project_JIPP2.dir\src\main.cpp.obj" \
-"CMakeFiles\Project_JIPP2.dir\src\Help.cpp.obj"
+"CMakeFiles\Project_JIPP2.dir\src\Help.cpp.obj" \
+"CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj"
 
 # External object files for target Project_JIPP2
 Project_JIPP2_EXTERNAL_OBJECTS =
@@ -166,9 +186,10 @@ Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\CurrentAcc.cpp.obj
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.obj
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\main.cpp.obj
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Help.cpp.obj
+Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\build.make
 Project_JIPP2.exe: CMakeFiles\Project_JIPP2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Project_JIPP2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Project_JIPP2.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Project_JIPP2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Project_JIPP2.dir\objects1.rsp @<<
  /out:Project_JIPP2.exe /implib:Project_JIPP2.lib /pdb:C:\Users\PW\Desktop\Project_JIPP2\cmake-build-debug\Project_JIPP2.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

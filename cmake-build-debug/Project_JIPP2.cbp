@@ -98,6 +98,9 @@
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/SavingsAcc.h">
 			<Option target="Project_JIPP2"/>
 		</Unit>
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/include/Taxes.h">
+			<Option target="Project_JIPP2"/>
+		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Account.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
@@ -108,6 +111,9 @@
 			<Option target="Project_JIPP2"/>
 		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp">
+			<Option target="Project_JIPP2"/>
+		</Unit>
+		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp">
 			<Option target="Project_JIPP2"/>
 		</Unit>
 		<Unit filename="C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp">

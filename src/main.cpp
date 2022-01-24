@@ -8,7 +8,7 @@
 #include "Help.h"
 #include <string>
 #include <cstdio>
-
+#include "Taxes.h"
 
 int main(int argc, char* argv[])
 {
@@ -65,6 +65,9 @@ int main(int argc, char* argv[])
                 a->modify_account(num,*file_name);
                 break;
             case '8':
+                    void other();
+                    break;
+            case '9':
                 cout << "\n\n\tThanks for using Simple Bank Management System";
                 break;
             default:

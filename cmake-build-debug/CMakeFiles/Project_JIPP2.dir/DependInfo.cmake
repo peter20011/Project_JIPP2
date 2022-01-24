@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/CurrentAcc.cpp.obj"
   "C:/Users/PW/Desktop/Project_JIPP2/src/Help.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Help.cpp.obj"
   "C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/SavingsAcc.cpp.obj"
+  "C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/Taxes.cpp.obj"
   "C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp" "C:/Users/PW/Desktop/Project_JIPP2/cmake-build-debug/CMakeFiles/Project_JIPP2.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

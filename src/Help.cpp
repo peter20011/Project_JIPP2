@@ -14,7 +14,8 @@ void menu(){
     cout << "\n\t\tPress 5 to View All Account Holder";
     cout << "\n\t\tPress 6 to Close an Account";
     cout << "\n\t\tPress 7 to Modify an Account";
-    cout << "\n\t\tPress 8 to Exit the Program";
+    cout << "\n\t\tPress 8 to  Other Function";
+    cout << "\n\t\tPress 9 to Exit the Program";
     cout << "\n\t\tOption: ";
 }
 double check() {
@@ -62,4 +63,5 @@ int check_s() {
 
     return liczba;
 }
+
 

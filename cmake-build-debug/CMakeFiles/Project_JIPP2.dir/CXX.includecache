@@ -6,33 +6,21 @@
 
 #IncludeRegexTransform: 
 
-../include/Account.h
-iostream
--
-string
--
-
-../include/CurrentAcc.h
-Account.h
--
-
 ../include/Help.h
 iostream
 ../include/iostream
 
-C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.cpp
-CurrentAcc.h
-C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.h
-fstream
--
-cctype
--
-iomanip
--
-stdlib.h
--
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.cpp
 Help.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+limits
+-
+
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp
+iostream
+-
+vector
+-
 string
 -
 

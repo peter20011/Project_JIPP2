@@ -214,6 +214,30 @@ src\SavingsAcc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\SavingsAcc.cpp.s
 .PHONY : src\SavingsAcc.cpp.s
 
+src\Taxes.obj: src\Taxes.cpp.obj
+.PHONY : src\Taxes.obj
+
+# target to build an object file
+src\Taxes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.obj
+.PHONY : src\Taxes.cpp.obj
+
+src\Taxes.i: src\Taxes.cpp.i
+.PHONY : src\Taxes.i
+
+# target to preprocess a source file
+src\Taxes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.i
+.PHONY : src\Taxes.cpp.i
+
+src\Taxes.s: src\Taxes.cpp.s
+.PHONY : src\Taxes.s
+
+# target to generate assembly for a file
+src\Taxes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project_JIPP2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project_JIPP2.dir\src\Taxes.cpp.s
+.PHONY : src\Taxes.cpp.s
+
 src\main.obj: src\main.cpp.obj
 .PHONY : src\main.obj
 
@@ -259,6 +283,9 @@ help:
 	@echo ... src/SavingsAcc.obj
 	@echo ... src/SavingsAcc.i
 	@echo ... src/SavingsAcc.s
+	@echo ... src/Taxes.obj
+	@echo ... src/Taxes.i
+	@echo ... src/Taxes.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
