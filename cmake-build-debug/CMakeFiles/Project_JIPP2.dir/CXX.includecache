@@ -6,21 +6,57 @@
 
 #IncludeRegexTransform: 
 
+../include/Account.h
+iostream
+-
+string
+-
+
+../include/CurrentAcc.h
+Account.h
+-
+
 ../include/Help.h
 iostream
 ../include/iostream
 
-C:/Users/PW/Desktop/Project_JIPP2/src/Help.cpp
-Help.h
-C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
-limits
+../include/SavingsAcc.h
+Account.h
 -
+string
+-
+Help.h
+../include/Help.h
 
-C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp
+../include/Taxes.h
 iostream
 -
 vector
 -
 string
 -
+Help.h
+../include/Help.h
+
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp
+Taxes.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.h
+Help.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+
+C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
+Account.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Account.h
+CurrentAcc.h
+C:/Users/PW/Desktop/Project_JIPP2/src/CurrentAcc.h
+SavingsAcc.h
+C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.h
+Help.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+string
+-
+cstdio
+-
+Taxes.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.h
 

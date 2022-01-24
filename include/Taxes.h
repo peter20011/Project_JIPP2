@@ -29,9 +29,9 @@ public:
         return wynik;
     };
 
+
 };
 
-void other();
 
 
 #endif //PROJECT_JIPP2_TAXES_H

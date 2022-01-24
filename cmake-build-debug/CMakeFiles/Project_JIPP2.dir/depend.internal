@@ -18,10 +18,13 @@ CMakeFiles/Project_JIPP2.dir/src/SavingsAcc.cpp.obj
  ../include/SavingsAcc.h
  C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp
 CMakeFiles/Project_JIPP2.dir/src/Taxes.cpp.obj
+ ../include/Help.h
+ ../include/Taxes.h
  C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp
 CMakeFiles/Project_JIPP2.dir/src/main.cpp.obj
  ../include/Account.h
  ../include/CurrentAcc.h
  ../include/Help.h
  ../include/SavingsAcc.h
+ ../include/Taxes.h
  C:/Users/PW/Desktop/Project_JIPP2/src/main.cpp
