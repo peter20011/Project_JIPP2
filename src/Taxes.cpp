@@ -44,5 +44,3 @@ string Taxes::get_name()
     return name;
 }
 
-
-

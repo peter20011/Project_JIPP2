@@ -10,11 +10,20 @@
 #include <cstdio>
 #include "Taxes.h"
 
+/*
+* Szablon dla roznicy funkcji dowolnych typow
+* @parm a przechowuje wartosc wprzekazana do funkcji
+* @parm b przechowuje wartosc wprzekazana do funkcji
+*/
+
 template <class T>
 T difference(T a, T b)
 {
     return a-b;
 }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 int main(int argc, char* argv[])
 {
@@ -29,6 +38,7 @@ int main(int argc, char* argv[])
     srand(time(0));
     char opt;
     int num;
+
 
     Account *a=new CurrentAcc();
     //Account *a=new SavingsAcc();
@@ -62,12 +72,12 @@ int main(int argc, char* argv[])
                 break;
             case '6':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                num=check_s();
                 a->delete_account(num,*file_name);
                 break;
             case '7':
                 cout << "\n\n\tEnter The account No. : ";
-                num=check();
+                num=check_s();
                 a->modify_account(num,*file_name);
                 break;
             case '8':
@@ -99,7 +109,7 @@ int main(int argc, char* argv[])
                                                 dad.income.push_back(m);
                                                 continue;
                                             }
-                                            else if(choice==2){
+                                             else if(choice==2){
                                                 break;
                                             }
                                             else
@@ -133,7 +143,7 @@ int main(int argc, char* argv[])
                                                 dad.income.push_back(v);
                                                 continue;
                                             }
-                                            if(choice==2){
+                                            else if(choice==2){
                                                 break;
                                             }
                                             else
