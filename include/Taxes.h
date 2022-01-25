@@ -51,10 +51,13 @@ public:
      * a - wartosc pensji
      */
     double tex(double a);
-    /* Funckja obliczająca podatek  dla sumy dochodów obu osó
-     *
+    /* Funckja obliczająca podatek  dla sumy dochodów obu użytkownikow
+     * @parma m,n -wartosć pensji
      */
     double tex(double m, double n);
+    /*
+     * Funckja zwaraca nazwe użytkownika
+     */
     string get_name();
     /*
      * Przeciążenie operatora +

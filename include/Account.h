@@ -16,6 +16,7 @@ protected:
      * accountnumber - przechowuje numer konta
      * name - przechowuje imie klienta
      * type- przechowuje informacje o type konta wybranego przez uzytkownika
+     * deposit -przechowuje wartosc depozytu
      */
     int accountnumber ;
     char name[50];

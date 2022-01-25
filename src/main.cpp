@@ -9,6 +9,7 @@
 #include <string>
 #include <cstdio>
 #include "Taxes.h"
+#include <iomanip>
 
 /*
 * Szablon dla roznicy funkcji dowolnych typow
@@ -85,9 +86,9 @@ int main(int argc, char* argv[])
                                 Taxes dad;
                                 Taxes mum;
                                 double n;
-                                for(int i=0;i<2;i++)
+                                for(int w=0;w<2;w++)
                                 {
-                                    if (i==0)
+                                    if (w==0)
                                     {
                                         cout<<"Give your name:\n";
                                         string a;
@@ -121,12 +122,12 @@ int main(int argc, char* argv[])
                                         }
                                     }
 
-                                    if (i==1)
+                                    if (w==1)
                                     {
                                         cout<<"Give your name:\n";
-                                        string a;
-                                        cin>>a;
-                                        mum.set_name(a);
+                                        string g;
+                                        cin>>g;
+                                        mum.set_name(g);
                                         cout<<"Enter your salary:";
                                         n=check();
                                         mum.set_salary(n);
@@ -139,8 +140,8 @@ int main(int argc, char* argv[])
                                             if(choice==1){
                                                 cout<<"Enter your income rate:\n";
                                                 double v;
-                                                cin>>v;
-                                                dad.income.push_back(v);
+                                                v=check();
+                                                mum.income.push_back(v);
                                                 continue;
                                             }
                                             else if(choice==2){
@@ -160,27 +161,33 @@ int main(int argc, char* argv[])
                                 cout<<"Joint income from salary is: "<<w.get_salary()<<"\n";
 
                                 double o;
-                                o=difference<double>(dad.get_salary(),mum.get_salary());
-                                cout<<"The difference between the salaries is: "<<o<<endl;
-
-                                cout<<"Tax paid by  "<<dad.get_name()<<" is equal "<<dad.tex(dad.get_salary())<<endl;
-                                cout<<"Tax paid by  "<<mum.get_name()<<" is equal "<<mum.tex(mum.get_salary())<<endl;
-                                cout<<"Tax Paid Jointly :"<<w.tex(dad.get_salary(),mum.get_salary())<<endl;
-                                double sum_dad=0;
-                                for(auto &i :dad.income)
+                                if(dad.get_salary()>mum.get_salary()) {
+                                    o = difference<double>(dad.get_salary(), mum.get_salary());
+                                    cout << "The difference between the salaries is: " << fixed<<setprecision(2)<<o << endl;
+                                }
+                                else
                                 {
-                                    sum_dad+=i;
+                                    o= difference<double>(mum.get_salary(),dad.get_salary());
+                                    cout<<  "The difference between the salaries is: " <<fixed<<setprecision(2)<< o << endl;
+                                }
+                                cout<<"Tax paid by  "<<dad.get_name()<<" is equal "<< fixed<<setprecision(2)<<dad.tex(dad.get_salary())<<endl;
+                                cout<<"Tax paid by  "<<mum.get_name()<<" is equal "<< fixed<<setprecision(2)<<mum.tex(mum.get_salary())<<endl;
+                                cout<<"Tax Paid jointly :"<<fixed<<setprecision(2)<<w.tex(dad.get_salary(),mum.get_salary())<<endl;
+                                double sum_dad=0;
+                                for(auto &j :dad.income)
+                                {
+                                    sum_dad+=j;
                                 }
 
                                 double sum_mum=0;
-                                for(auto &i : mum.income)
+                                for(auto &l : mum.income)
                                 {
 
-                                    sum_mum+=i;
+                                    sum_mum+=l;
 
                                 }
-                                cout<<"Income from other sources is: "<<sum_dad<<endl<<" for "<<dad.get_name()<<endl;
-                                cout<<"Income from other sources is: "<<sum_mum<<endl<<" for "<<mum.get_name()<<endl;
+                                cout<<"Income from other sources is: "<< setprecision(2)<<sum_dad<<endl<<" for "<<dad.get_name()<<endl;
+                                cout<<"Income from other sources is: "<< setprecision(2)<<sum_mum<<endl<<" for "<<mum.get_name()<<endl;
                                 }
                                 break;
 
