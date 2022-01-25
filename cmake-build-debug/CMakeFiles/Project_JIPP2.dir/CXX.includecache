@@ -60,6 +60,12 @@ C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
 string
 -
 
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.cpp
+Help.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+limits
+-
+
 C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.cpp
 SavingsAcc.h
 C:/Users/PW/Desktop/Project_JIPP2/src/SavingsAcc.h
@@ -75,6 +81,12 @@ stdlib.h
 -
 string
 -
+Help.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
+
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.cpp
+Taxes.h
+C:/Users/PW/Desktop/Project_JIPP2/src/Taxes.h
 Help.h
 C:/Users/PW/Desktop/Project_JIPP2/src/Help.h
 
