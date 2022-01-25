@@ -97,7 +97,7 @@ public:
       * 1 - wpłata
       * 2- wyplata
       * @parm n - numer konta
-      *  @parm
+      *  @parm - opcja
       * @parm *file -wskaznik na nazwe pliku
       */
     virtual void   deposit_withdraw(int n, int option,char* file)=0;

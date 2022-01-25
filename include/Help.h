@@ -10,11 +10,11 @@ using namespace std;
  */
 void menu();
 /*
- * check - sprawdza czy dana liczba jest liczba (double)
+ * check - sprawdza czy dana podana przez użytkownika  jest liczbą  (double)
  */
 double check();
 /*
- * check - sprawdza czy dana liczba jest liczba (int)
+ * check - sprawdza czy dana podana przez użytkownika  jest liczbą (int)
  */
 int check_s();
 

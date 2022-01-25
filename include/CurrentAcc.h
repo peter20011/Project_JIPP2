@@ -5,27 +5,96 @@
 #ifndef PROJECT_JIPP2_CURRENTACC_H
 #define PROJECT_JIPP2_CURRENTACC_H
 #include <Account.h>
-
+/*
+ * Klasa CurrentAcc- klasa pochodna po klasie Accout , dziedziczy po niej metody oraz atrybuty
+ */
 class CurrentAcc:public Account {
 public:
+    /*
+     * Konstruktor klasy CurrentAcc
+     */
     CurrentAcc();
+    /*
+     * Destruktor klasy CurrentAcc
+     */
     ~CurrentAcc();
+    /*
+     * Funkcja odpowiadajaca za tworzenie konta
+     */
     void create_account();
+    /*
+     * Funkcja odpowiadajaca za wyswitlenie informacji o koncie
+     */
     void show_account();
+    /*
+     * Funkcja pozwalajaca modyfikowac wybrane parametry konta
+     */
     void modify_account();
-    void deposit_funds(double);
-    void draw_funds(double);
+    /*Funkcja pozwala na dodanie depozytu do konta
+     * @parma x - wielkosc depozytu
+     */
+    void deposit_funds(double x);
+    /* Funkcja pozwalająca na wypłacenie funduszy
+     * @parm x - wielkosc wyplaty
+     */
+    void draw_funds(double x);
+    /*
+     * Pobieranie informacji o koncie
+     */
     void get_report();
+    /*
+     * Funkcja zwraca numer konta
+     */
     int get_accountnumber();
+    /*
+     * Funkcja zwraca wartosc depozytu
+     */
     int get_funds();
+    /*
+     * Funkcja zwraca typ konta
+     */
     char get_accounttype();
+    /*
+     * Funkcja zapisująca do pliku  stworzone konto
+     *  @parm *file wskaznik na nazwe plku wczytaną z uruchomieniem programu
+     */
     void write_account(char* file);
-    void display_sp(int,char* file);
-    void modify_account(int,char* file);
+    /* Funkcja wypisujca informacje o konice
+     * @parm n - numer konta
+     * @parm *file -wskaznik na nazwe pliku
+     */
+    void display_sp(int n ,char* file);
+    /* Funkcja pozalajaca modyfikowac wybrane aspekty konta
+     * @parm n - numer konta
+     * @parm *file -wskaznik na nazwe pliku
+     */
+    void modify_account(int n,char* file);
+    /*Funkcja usuwajaca konto
+     * @parm n - numer konta
+     * @parm *file -wskaznik na nazwe pliku
+     */
     void delete_account(int,char* file);
+    /*
+     * Funnkcja wyswietlajaca wszystkie konta z pliku
+     * @parm *file -wskaznik na nazwe pliku
+     */
     void display_all(char* file);
+    /*
+     * Funkcja pozwalajaca na wpłaty i wypaty w zaleznosci od przekazanego parametru
+     * 1 - wpłata
+     * 2- wyplata
+     * @parm n - numer konta
+     * @parm - opcja
+     * @parm *file -wskaznik na nazwe pliku
+     */
     void deposit_withdraw(int, int,char* file);
+    /*
+     * dokumentacja w Help.h
+     */
      friend double check();
+    /*
+     * dokumentacja w Help.h
+     */
      friend  int check_s();
 
 };

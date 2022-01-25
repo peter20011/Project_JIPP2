@@ -7,8 +7,14 @@
 #include <Account.h>
 #include <string>
 #include "Help.h"
+/*
+ * Klasa SaivingsAcc- klasa pochodna po klasie Accout , dziedziczy po niej metody oraz atrybuty
+ */
 class SavingsAcc : public Account{
 public:
+    /*
+     * Konstruktor klasy SavingsAcc
+     */
     SavingsAcc();
     ~SavingsAcc();
     void create_account();

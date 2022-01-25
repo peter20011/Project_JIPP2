@@ -163,8 +163,8 @@ int main(int argc, char* argv[])
                                 o=difference<double>(dad.get_salary(),mum.get_salary());
                                 cout<<"The difference between the salaries is: "<<o<<endl;
 
-                                cout<<"Tax paid by :"<<dad.get_name()<<"is equal "<<dad.tex(dad.get_salary())<<endl;
-                                cout<<"Tax paid by :"<<mum.get_name()<<"is equal "<<mum.tex(mum.get_salary())<<endl;
+                                cout<<"Tax paid by  "<<dad.get_name()<<" is equal "<<dad.tex(dad.get_salary())<<endl;
+                                cout<<"Tax paid by  "<<mum.get_name()<<" is equal "<<mum.tex(mum.get_salary())<<endl;
                                 cout<<"Tax Paid Jointly :"<<w.tex(dad.get_salary(),mum.get_salary())<<endl;
                                 double sum_dad=0;
                                 for(auto &i :dad.income)
