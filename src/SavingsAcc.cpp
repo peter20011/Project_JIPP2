@@ -6,7 +6,6 @@
 #include <fstream>
 #include <cctype>
 #include <iomanip>
-#include <time.h>
 #include <stdlib.h>
 #include <string>
 #include "Help.h"
@@ -52,6 +51,7 @@ void SavingsAcc::create_account()
             deposit=check();
             while(deposit<0)
             {
+                cout<<"Negative amount";
                 deposit=check();
             }
             cout << "\n\n\nAccount Created Successfully...";
@@ -93,6 +93,7 @@ void SavingsAcc::modify_account()
             deposit=check();
             while(deposit<0)
             {
+                cout<<"Negative amount";
                 deposit=check();
             }
             cout << "\n\n\nAccount Created Successfully...";
@@ -104,6 +105,7 @@ void SavingsAcc::modify_account()
             deposit=check();
             while(deposit<0)
             {
+                cout<<"Negative amount";
                 deposit=check();
             }
             cout << "\n\n\nAccount Created Successfully...";
@@ -171,7 +173,8 @@ void SavingsAcc::display_sp(int n,char* file ) {
     cout << "\nBALANCE DETAILS\n";
 
     while (inFile.read(reinterpret_cast<char *>(&ac), sizeof(SavingsAcc))) {
-        if (ac.get_accountnumber() == n) {
+        if (ac.get_accountnumber() == n)
+        {
             ac.show_account();
             flag = true;
         }
@@ -297,6 +300,7 @@ void SavingsAcc::deposit_withdraw(int n , int option,char* file )
                 amt=check();
                 while(amt<0)
                 {
+                    cout<<"Negative number";
                     amt=check();
                 }
                 ac.deposit_funds(amt);
@@ -308,6 +312,7 @@ void SavingsAcc::deposit_withdraw(int n , int option,char* file )
                 amt=check();
                 while(amt<0)
                 {
+                    cout<<"Negative number";
                     amt=check();
                 }
                 int bal = ac.get_funds() - amt;

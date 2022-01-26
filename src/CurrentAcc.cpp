@@ -50,6 +50,7 @@ while(true){
         deposit=check();
         while(deposit<0)
         {
+            cout<<"Negative amount";
             deposit=check();
         }
         cout << "\n\n\nAccount Created Successfully...";
@@ -91,6 +92,7 @@ void CurrentAcc::modify_account()
         deposit=check();
         while(deposit<0)
         {
+            cout<<"Negative amount";
             deposit=check();
         }
         cout << "\n\n\nAccount Created Successfully...";
@@ -102,6 +104,7 @@ void CurrentAcc::modify_account()
         deposit=check();
         while(deposit<0)
         {
+            cout<<"Negative amount";
             deposit=check();
         }
         cout << "\n\n\nAccount Created Successfully...";
@@ -299,7 +302,9 @@ void CurrentAcc::deposit_withdraw(int n , int option,char* file)
                 amt=check();
                 while(amt<0)
                 {
+                    cout<<"Negative number";
                     amt=check();
+
                 }
                 ac.deposit_funds(amt);
             }
@@ -310,6 +315,7 @@ void CurrentAcc::deposit_withdraw(int n , int option,char* file)
                 amt=check();
                 while(amt<0)
                 {
+                    cout<<"Negative number";
                     amt=check();
                 }
                 int bal = ac.get_funds() - amt;

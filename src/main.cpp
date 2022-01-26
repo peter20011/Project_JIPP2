@@ -96,6 +96,12 @@ int main(int argc, char* argv[])
                                         dad.set_name(a);
                                         cout<<"Enter your salary:\n";
                                         n=check();
+                                        while(n<0)
+                                        {
+                                            cout<<"Error\n";
+                                            cout<<"Try again\n";
+                                            n=check();
+                                        }
                                         dad.set_salary(n);
                                         while(true)
                                         {
@@ -107,6 +113,12 @@ int main(int argc, char* argv[])
                                                 cout<<"Enter your income rate\n";
                                                 double m;
                                                 m=check();
+                                                while(m<0)
+                                                {
+                                                    cout<<"Error\n";
+                                                    cout<<"Try again\n";
+                                                    m=check();
+                                                }
                                                 dad.income.push_back(m);
                                                 continue;
                                             }
@@ -130,6 +142,12 @@ int main(int argc, char* argv[])
                                         mum.set_name(g);
                                         cout<<"Enter your salary:";
                                         n=check();
+                                        while(n<0)
+                                        {
+                                            cout<<"Error";
+                                            cout<<"Try again";
+                                            n=check();
+                                        }
                                         mum.set_salary(n);
                                         while(true)
                                         {
@@ -141,6 +159,12 @@ int main(int argc, char* argv[])
                                                 cout<<"Enter your income rate:\n";
                                                 double v;
                                                 v=check();
+                                                while(v<0)
+                                                {
+                                                    cout<<"Error\n";
+                                                    cout<<"Try again\n";
+                                                    v=check();
+                                                }
                                                 mum.income.push_back(v);
                                                 continue;
                                             }
